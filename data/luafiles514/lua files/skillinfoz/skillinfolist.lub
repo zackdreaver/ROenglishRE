@@ -12212,7 +12212,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WE_CALLALLFAMILY] = {
 		"WE_CALLALLFAMILY",
-		SkillName = "ࠬخС ȔҲ׳٩",
+		SkillName = "If we are together",
 		MaxLv = 1,
 		SpAmount = { 100 },
 		bSeperateLv = false,
@@ -12220,7 +12220,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WE_ONEFOREVER] = {
 		"WE_ONEFOREVER",
-		SkillName = "=յ ࠬر Х׳Ե; ݸ ߸߮ࠤ",
+		SkillName = "Death cannot tear us apart",
 		MaxLv = 1,
 		SpAmount = { 100 },
 		bSeperateLv = false,
@@ -12228,7 +12228,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.WE_CHEERUP] = {
 		"WE_CHEERUP",
-		SkillName = "߶ض ߆ۼ ɻӻܼࠤ",
+		SkillName = "Mom and Dad cheer up",
 		MaxLv = 1,
 		SpAmount = { 50 },
 		bSeperateLv = false,
