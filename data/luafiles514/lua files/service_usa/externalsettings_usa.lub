@@ -1,0 +1,60 @@
+MaxLevelTable = {
+	BaseLevel = 99,
+	BaseLevel3rd = 175,
+	BaseLevelExtend2 = 160,
+	BaseLevelUpperJob = 175,
+	BaseLevelHomun = 150,
+	BaseLevelDoram = 175,
+	JobLevelNovice = 10,
+	JobLevelSuperNovice = 99,
+	JobLevelBase = 50,
+	JobLevel2nd = 70,
+	JobLevel3rd = 60,
+	JobLevelExtend2 = 50,
+	JobLevelUpperJob = 60,
+	JobLevelDoram = 50
+}
+MakeableRace = { Doram = true }
+Url = { TwitterUrl = "http://112.175.128.140:3000/" }
+
+-- Function #0
+GetTableIntValueForC = function(tableName, keyName)
+	local t = _G[tableName]
+	if nil == t then
+		return -1
+	else
+		local intValue = t[keyName]
+		if nil == intValue then
+			return -1
+		end
+		return intValue
+	end
+end
+
+-- Function #1
+GetTableStringValueForC = function(tableName, keyName)
+	local t = _G[tableName]
+	if nil == t then
+		return ""
+	else
+		local stringValue = t[keyName]
+		if nil == stringValue then
+			return ""
+		end
+		return stringValue
+	end
+end
+
+-- Function #2
+GetTableBoolValueForC = function(tableName, keyName)
+	local t = _G[tableName]
+	if nil == t then
+		return false
+	else
+		local boolValue = t[keyName]
+		if nil == boolValue then
+			return false
+		end
+		return boolValue
+	end
+end
