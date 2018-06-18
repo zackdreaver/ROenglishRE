@@ -317,7 +317,7 @@ mapNPCInfoTable = {
 	},
 -- ---------------------------------------------------------------------------- 
 	xmas = {
-		{ name = [=[Kafra Employee]=], X = 148, Y = 134, TYPE = 6, },
+		-- { name = [=[Kafra Employee]=], X = 148, Y = 134, TYPE = 6, },
 		{ name = [=[Guide]=], X = 140, Y = 137, TYPE = 4, },
 		{ name = [=[Tool Dealer]=], X = 122, Y = 131, TYPE = 0, },
 		{ name = [=[Weapon Dealer]=], X = 171, Y = 158, TYPE = 1, },
